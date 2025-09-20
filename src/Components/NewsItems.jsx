@@ -6,9 +6,9 @@ const NewsItems = ({news}) => {
     <div>
       <div className="card bg-dark text-light mb-3 d-inline-block my-2 mx-1 px-1 py-2" style={{maxWidth:"340px"
       }}>
-        {news.urlToImage ? (
+        {news.image ? (
   <img
-    src={news.urlToImage}
+    src={news.image}
     alt={news.title}
     className="card-img-top"
   />
