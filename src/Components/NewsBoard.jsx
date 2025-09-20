@@ -29,18 +29,6 @@ const NewsBoard = ({ category }) => {
       <h2 className="text-center">
         Latest <span className="badge bg-danger fs-4">News</span>
       </h2>
-      <div className="text-center my-3">
-        <input
-          type="text"
-          className="form-control w-50 mx-auto text-center fs-4"
-          placeholder="Enter text here..."
-        />
-      </div>
-      <div className="text-center my-3">
-        <button className="btn btn-danger fs-4 px-4">
-          <span className="badge bg-light text-dark">Search</span>
-        </button>
-      </div>
 
       <div className="row">
         {articles.length > 0 ? (
